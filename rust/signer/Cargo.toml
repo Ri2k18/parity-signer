@@ -24,4 +24,4 @@ default = ["jni"]
 
 # https://github.com/DaGenix/rust-crypto/issues/383
 [replace]
-"rust-crypto:0.2.36" = { git = "https://github.com/debris/rust-crypto" }
+"rust-crypto:0.2.36" = { git = "https://github.com/tomaka/rust-crypto", branch="cc-rs" }
