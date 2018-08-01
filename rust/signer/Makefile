@@ -1,5 +1,5 @@
 ARCHS_IOS = i386-apple-ios x86_64-apple-ios armv7-apple-ios armv7s-apple-ios aarch64-apple-ios
-ARCHS_ANDROID = aarch64-linux-android armv7-linux-androideabi i686-linux-android
+ARCHS_ANDROID = armv7-linux-androideabi i686-linux-android
 LIB=libsigner.a
 
 all: ios android
